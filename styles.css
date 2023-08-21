@@ -1,0 +1,88 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: #F3F7F8;
+  }
+  
+  .header {
+    background-color: #F3F7F8;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:60px;
+    margin-left: 120px;
+  }
+  
+  .logo img{
+    max-height: 50px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin: 0 15px;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #333;
+    justify-content: right;
+  }
+
+  main {
+    background-color: #2d2b2b; 
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .slogan-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    margin-left: 120px;
+  }
+  
+  .big-slogan {
+    font-size: 38px;
+    font-weight: bold;
+    padding: 16px;
+  }
+  
+  .slogan-description {
+    font-size: 17px;
+    padding: 24px;
+  }
+
+  .button {
+    background-color: darkgrey;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .left-content {
+    flex:1;
+  }
+
+  .right-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .right-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 85px;
+  }
